@@ -27,7 +27,7 @@ public class Main {
 		Azienda az_test = new Azienda (nomeAzienda, partitaIVA, ragioneSociale);
 		
 		
-//		model.patents_test(az_test); // DECOMMENTARE PER BREVETTI
+		model.patents_test(az_test); // DECOMMENTARE PER BREVETTI
 		
 		
 		model.webReputation_test(az_test); // DECOMMENTARE PER REPUTATION

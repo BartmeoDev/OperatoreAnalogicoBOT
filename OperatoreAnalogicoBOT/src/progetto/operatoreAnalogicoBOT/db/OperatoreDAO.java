@@ -66,7 +66,7 @@ public class OperatoreDAO {
 			PreparedStatement st;
 			st = connection.prepareStatement(sqlBrevettoEPO);
 			st.setString(1, b.getP_iva());	// stringa, 11 caratteri?
-			st.setString(2, b.getDoc_number());	// stringa, max 20 caratteri
+			st.setString(2, b.getFullDocNumber());	// stringa, max 20 caratteri
 			st.setString(3, b.getFamily_id());	// stringa, max 15 caratteri
 			st.setString(4, b.getTitolo());	// stringa, max 500 caratteri (meglio abbondare)
 			st.setString(5, b.getAssegnatario());	// stringa, max 100 caratteri

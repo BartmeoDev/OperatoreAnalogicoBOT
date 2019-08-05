@@ -154,6 +154,8 @@ public class Brevetto {
 	
 	
 	public String getInventoriAsString () {
+		if (inventori == null) return "";
+		
 		String inv = "";
 		for (String s : this.inventori) {
 			inv += s + ", ";
